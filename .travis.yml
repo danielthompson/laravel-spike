@@ -6,4 +6,5 @@ php:
 script:
   - cd src/
   - composer install
+  - php artisan key:generate
   - phpunit tests
