@@ -5,6 +5,7 @@ php:
 
 script:
   - cd src/
+  - cp .env.travis .env
   - composer install
   - php artisan key:generate
   - phpunit tests
