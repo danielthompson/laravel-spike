@@ -4,5 +4,4 @@ php:
   - '7.1'
 
 script:
-  - ls -l
-  - src/vendor/bin/phpunit src/tests
+  - src/vendor/bin/./phpunit src/tests
