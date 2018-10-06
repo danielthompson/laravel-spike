@@ -1,5 +1,6 @@
 <?php
 
+use App\Trainer;
 use Illuminate\Http\Request;
 
 /*
@@ -16,3 +17,14 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('trainers', 'TrainerController@index');
+
+Route::get('trainers/{trainer}', 'TrainerController@show');
+
+Route::post('trainers', 'TrainerController@create');
+
+Route::put('trainers/{trainer}', 'TrainerController@update');
+
+Route::delete('trainers/{trainer}', 'TrainerController@delete');
+
