@@ -4,6 +4,5 @@ php:
   - '7.1'
 
 script:
-  - composer self-update
-  - composer install no-interaction
+  - composer install
   - phpunit -c src/phpunit.xml src/tests
