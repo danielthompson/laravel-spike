@@ -4,6 +4,6 @@ php:
   - '7.1'
 
 script:
-  - cp src/composer.json composer.json
+  - cd src/
   - composer install
-  - phpunit -c src/phpunit.xml src/tests
+  - phpunit tests
