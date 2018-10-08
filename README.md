@@ -16,13 +16,13 @@ The following verbs are supported:
 
 ![GET](postman-get.png)
 
-`PUT` 
-
-![PUT](postman-put.png)
-
 `POST`
 
 ![POST](postman-post.png)
+
+`PUT` 
+
+![PUT](postman-put.png)
 
 `DELETE`
 
